@@ -1,0 +1,5 @@
+Mikrodenetleyici = ATmega328P (ve diğer uyumlu denetleyiciler)
+RÖLE1 = PD4
+RÖLE2 = PD5
+RÖLE3 = PD6 
+RÖLE4 = PD7 
