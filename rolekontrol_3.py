@@ -108,7 +108,7 @@ def zamanlama():
         if event == "Exit" or event == sg.WIN_CLOSED:
             break 
         if event == "zamanlama_baslat":
-            sure = (int(values['dakika']) * 60) + int(values['saniye']) * 1000 + sayac
+            sure = ((int(values['dakika']) * 60) + int(values['saniye'])) * 1000 + sayac
             print("Sure:", sure)
             if (values['rolesecim'] == window["-ROLE1AC-"].get_text()[:-3]):
                 role1_ac()
